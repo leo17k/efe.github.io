@@ -6,12 +6,14 @@ const nombredeusuario = document.getElementById("nombre-usuario");
 const infomacion = document.getElementById("informacion");
 const guardar= document.getElementById("guardar");
 const correo =document.getElementById("Correo");
-const tlf =document.getElementById("tlf")
+const tlf =document.getElementById("tlf");
+const publ = document.getElementById ("publ")
 
 editarperfil.addEventListener("click", ()=>{
     diviput.style.display = "block";
     infomacion.style.display = "none";
     guardar.style.display = "inline";
+    publ.style.display = "none";
 });
 
 
@@ -19,7 +21,8 @@ editarperfil.addEventListener("click", ()=>{
 guardar.addEventListener("click", ()=>{
     infomacion.style.display = "block";
     diviput.style.display = "none";
-    guardar.style.display = "none"
+    guardar.style.display = "none";
+    publ.style.display = "block"
 
 });
 
