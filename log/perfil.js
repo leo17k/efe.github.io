@@ -7,13 +7,15 @@ const infomacion = document.getElementById("informacion");
 const guardar= document.getElementById("guardar");
 const correo =document.getElementById("Correo");
 const tlf =document.getElementById("tlf");
-const publ = document.getElementById ("publ")
+const publ = document.getElementById ("publ")!
+const publ1 = document.getElementById ("publ");const publ2 = document.getElementById ("publ2");
 
 editarperfil.addEventListener("click", ()=>{
     diviput.style.display = "block";
     infomacion.style.display = "none";
     guardar.style.display = "inline";
-    publ.style.display = "none";
+    publ.style.display = "none";    publ1.style.display = "none";
+publ2.style.display = "none";
 });
 
 
@@ -22,7 +24,9 @@ guardar.addEventListener("click", ()=>{
     infomacion.style.display = "block";
     diviput.style.display = "none";
     guardar.style.display = "none";
-    publ.style.display = "block"
+    publ.style.display = "block";
+publ1.style.display = "block";
+publ2.style.display = "block";
 
 });
 
