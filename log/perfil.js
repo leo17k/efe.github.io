@@ -1,4 +1,4 @@
-
+//hola
 const inputeditar = document.getElementById("usuario");
 const editarperfil = document.getElementById("editar-perfil"); //botoon
 const diviput = document.getElementById("input-editar");
