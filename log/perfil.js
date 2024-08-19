@@ -8,14 +8,14 @@ const guardar= document.getElementById("guardar");
 const correo =document.getElementById("Correo");
 const tlf =document.getElementById("tlf");
 const publ = document.getElementById ("publ")!
-const publ1 = document.getElementById ("publ");const publ2 = document.getElementById ("publ2");
+const publa = document.getElementById ("publa");const publb = document.getElementById ("publb");
 
 editarperfil.addEventListener("click", ()=>{
     diviput.style.display = "block";
     infomacion.style.display = "none";
     guardar.style.display = "inline";
-    publ.style.display = "none";    publ1.style.display = "none";
-publ2.style.display = "none";
+    publ.style.display = "none";    publa.style.display = "none";
+publb.style.display = "none";
 });
 
 
@@ -25,8 +25,8 @@ guardar.addEventListener("click", ()=>{
     diviput.style.display = "none";
     guardar.style.display = "none";
     publ.style.display = "block";
-publ1.style.display = "block";
-publ2.style.display = "block";
+publa.style.display = "block";
+publb.style.display = "block";
 
 });
 
