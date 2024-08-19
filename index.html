@@ -1,0 +1,90 @@
+<!DOCTYPE html>  
+<html lang="es">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Página con Navegación</title>  
+    <link rel="stylesheet" href="Estilos/style.css"> <!-- Vincula el archivo CSS -->  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="Estilos/perfil.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>  
+        .content section {  
+            display: none; /* Ocultar contenido por defecto */  
+        }  
+        .content section.active {  
+            display: block; /* Mostrar solo la sección activa */  
+        }  
+    </style>  
+</head>  
+<body>  
+
+
+ <div class="navbar">  
+    <div class="logo">Efe</div>  
+    <div class="nav-links">  
+        <a href="#publicaciones" class="nav-link" data-target="publicaciones"> <i class="fas fa-newspaper"></i> Publicaciones</a>  
+        <a href="#mensajeria" class="nav-link" data-target="mensajeria"> <i class="fas fa-comments"></i> Mensajería</a>  
+        <a href="#notificaciones" class="nav-link" data-target="notificaciones"> <i class="fas fa-bell"></i> Notificaciones</a>  
+        <a href="#perfil" class="nav-link" data-target="perfil"> <i class="fas fa-user"></i> Perfil</a>  
+    </div>  
+</div>  
+
+
+
+<section id="perfil" class="oculto">  
+    <h2>Perfil</h2>  
+    <div class="perfil-container">  
+        <img src="img/2.jpg" class="ftpor" alt="Imagen de fondo del perfil">  
+        <img id="preview-imagen" src="img/1.png" class="ftp" alt="Foto de perfil">  
+    </div>  
+    <h1 id="nombre-usuario" class="nombre">Cesar Torres</h1> 
+
+    <button class="editar-perfil" id="editar-perfil">Editar Perfil</button> 
+
+
+
+    <div id="input-editar" class ="input-editar">  
+        <p>Nombre de usuario</p>
+        <input id="usuario" class="nombre-usuario"> 
+    <p>Correo</p>
+    <input id="Correo" class="nombre-usuario">  <p>Teléfono</p>
+    <input id="tlf">
+
+<p>Imagen de perfil</p>  
+    <div class="file-input">  
+  <label for="imagen-perfil" class="btn-file">Seleccionar archivo</label>  
+  <input type="file" id="imagen-perfil" class="imagen-perfil">  
+  
+</div>
+    
+    </div>
+    <button id="guardar" class="editar-perfil2">Guardar cambios</button>
+</section>
+
+<section class="e"> <div id="informacion" class="informacion">  
+        <strong>Email:</strong><p id="Email"> usuario@example.com</p>  
+        <strong>Teléfono:</strong><p id="tlf2"> (123) 456-7890</p>
+        <div class="f"><h2>Bibliografia</h2>
+            <p>hola gola gomask bajskdj abahwdjbHJ HJADW H HFUVW HVqie wdyuwvd yvwdk yvuwb hwv vwdvdvwvdwvd</p>
+        
+        </div> 
+    
+        
+ 
+    </div>  
+</section>
+       
+
+   
+    
+    
+   
+
+
+<script src="log/codigo.js"></script>
+<script src="log/perfil.js"></script>
+</body>  
+</html>

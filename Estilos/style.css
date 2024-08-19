@@ -1,0 +1,104 @@
+body {  
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+          
+    margin: 0;  
+    padding: 0;  
+}  
+ .navbar {  
+        display: flex;  
+        justify-content: space-between;  
+        padding: 10px;  
+        background-color: #580aff;  
+    }  
+    
+    .logo {  
+        color: white;  
+        font-size: 24px;  
+    }  
+    
+    .nav-links {  
+        display: flex;  
+    }  
+    
+    .nav-links a {  
+        color: white;  
+        text-decoration: none;  
+        margin: 0 15px;  
+        position: relative;  
+    }  
+
+
+.mensajes {  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+    padding: 10px;  
+    max-height: 300px;  
+    overflow-y: auto;  
+    margin-bottom: 10px;  
+}  
+
+.mensaje {  
+    margin: 5px 0;  
+    padding: 10px;  
+    border-radius: 5px;  
+}  
+
+.mensaje.recibido {  
+    background-color: #e7f3ff;  
+    text-align: left;  
+}  
+
+.mensaje.enviado {  
+    background-color: #cce5ff;  
+    text-align: right;  
+}  
+
+.nuevo-mensaje {  
+    display: flex;  
+}  
+
+.nuevo-mensaje input {  
+    flex: 1;  
+    padding: 10px;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+    margin-right: 5px;  
+}  
+
+.nuevo-mensaje button {  
+    padding: 10px 15px;  
+    border: none;  
+    background-color: #4267B2; /* Color similar a Facebook */  
+    color: white;  
+    border-radius: 5px;  
+    cursor: pointer;  
+}  
+
+.nuevo-mensaje button:hover {  
+    background-color: #365899; /* Un tono más oscuro */  
+}
+
+html, body {  
+    margin: 0;         /* Elimina márgenes predeterminados */  
+    padding: 0;        /* Elimina padding predeterminado */  
+    width: 100%;       /* Asegura que la página use todo el ancho */  
+    height: 100%;      /* Asegura que la página use toda la altura */  
+}  
+
+  /* Ocultar texto en dispositivos móviles */  
+    @media (max-width: 768px) {  
+        .nav-links a {  
+            font-size: 0; /* Ocultar texto */  
+        }  
+        
+        .nav-links a i {  
+            font-size: 20px; /* Ajustar tamaño del ícono */  
+            position: relative; /* Para mantener el espacio */  
+            padding: 10px; /* Espaciado alrededor del ícono */  
+        }  
+    } 

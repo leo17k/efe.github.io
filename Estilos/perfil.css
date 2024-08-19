@@ -1,0 +1,176 @@
+
+#perfil {
+    text-align: center; /* Centramos el texto */
+    position: relative; /* Para el posicionamiento de .ftp */
+}  
+
+.perfil-container {  
+    position: relative; /* Contenedor relativo para posicionar las imágenes */  
+    width: 100%;       /* Ancho del contenedor al 100% */  
+    height: 20vh;      /* Altura del contenedor al 20% de la altura de la ventana */  
+    overflow: hidden;  /* Para ocultar cualquier desbordamiento */  
+    border-image: fill 0 linear-gradient(#0001, #392759c9);
+}  
+
+.ftpor {  
+    position: absolute; /* Para que la imagen ocupe todo el contenedor */  
+    top: 0;            /* Al inicio del contenedor */  
+    left: 0;           /* A la izquierda del contenedor */  
+    width: 100vw;      /* Ancho completo de la ventana (viewport) */  
+    height: 100%;      /* Altura completa al contenedor */  
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor */  
+    z-index: -1;        /* Asegura que esté detrás de .ftp */  
+}  
+
+.ftp {  
+    margin-top: 18px;
+    width: 140px; /* Ajusta el ancho según tus necesidades */  
+    height: 140px; /* Ajusta la altura según tus necesidades */  
+    border: 2px solid #5900ff66; /* Agrega un borde */  
+    border-radius: 50%; /* Hace que la imagen sea circular */  
+    padding: 7px; /* Agrega un pequeño espacio alrededor de la imagen */  
+    background-color: #00000061; /* Agrega un color de fondo */  
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa por encima */  
+    transition: all 0.3s ease; /* Agrega una transición suave al cambiar el estilo */  
+  }  
+  
+  .ftp:hover {  
+    border-color: #673AB7; /* Cambia el color del borde al pasar el cursor por encima */  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Agrega una sombra al pasar el cursor por encima */  
+  }
+
+
+button.editar-perfil{  
+    margin-top: 15px; /* Espacio encima del botón */  
+    padding: 10px 20px; /* Espaciado dentro del botón */  
+    font-size: 16px;    /* Tamaño de fuente */  
+    color: #fff;        /* Color del texto */  
+    background-color: #5e43c8e3; /* Color de fondo */  
+    border: none;       /* Sin borde */  
+    border-radius: 5px; /* Bordes redondeados */  
+    cursor: pointer;    /* Cambia el cursor al pasar por encima */  
+    transition: background-color 0.3s; /* Transición para el hover */  
+}  
+
+button.editar-perfil:hover {  
+    background-color: #250aefb4; /* Color de fondo al pasar el cursor */  
+   
+}  
+
+
+.informacion {  
+  overflow: hidden; /* Asegura que el contenedor abarque todos los elementos flotantes */  
+}  
+
+.informacion p {  
+  margin: 0; /* Elimina el margen predeterminado de los párrafos */  
+}  
+.e{
+    margin-top: 30px;
+}
+.f {  
+  float: right; /* Alinea el h2 a la derecha */  
+  margin: 0; /* Elimina el margen predeterminado del h2 */  
+}
+.nombre{
+   margin:10px;
+}
+
+
+button.editar-perfil2 {  
+    margin-top: 15px; /* Espacio encima del botón */  
+    padding: 10px 20px; /* Espaciado dentro del botón */  
+    font-size: 16px;    /* Tamaño de fuente */  
+    color: #fff;        /* Color del texto */  
+    background-color: #5e43c8e3; /* Color de fondo */  
+    border: none;       /* Sin borde */  
+    border-radius: 5px; /* Bordes redondeados */  
+    cursor: pointer;    /* Cambia el cursor al pasar por encima */  
+    transition: background-color 0.3s; /* Transición para el hover */  
+    display: none;
+}  
+
+button.editar-perfil2:hover {  
+    background-color: #250aefb4; /* Color de fondo al pasar el cursor */  
+   
+}  
+
+.input-file {  
+    display: inline-block;  
+    padding: 8px 16px;  
+    font-size: 14px;  
+    font-weight: 500;  
+    color: #fff;  
+    background-color: #007bff;  
+    border: none;  
+    border-radius: 4px;  
+    cursor: pointer;  
+    transition: background-color 0.3s ease;  
+  }  
+  
+  .btn-file:hover {  
+    background-color: #0056b3;  
+  }  
+  
+  .btn-file:focus {  
+    outline: none;  
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);  
+  }  
+
+input{
+   border-radius: 20px;
+    padding-top:2px;
+    padding-block:3px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+
+.input-editar{
+    display: none;
+margin-top: 2%;
+}
+
+
+
+.file-input {  
+    position: relative;  
+    display: inline-block;  
+  }  
+  
+  .btn-file {  
+    display: inline-block;  
+    padding: 8px 16px;  
+    font-size: 14px;  
+    font-weight: 500;  
+    color: #fff;  
+    background-color:#5e43c8e3;  
+    border: none;  
+    border-radius: 4px;  
+    cursor: pointer;  
+    transition: background-color 0.3s ease;  
+  }  
+  
+  .btn-file:hover {  
+    background-color:  #250aefb4;
+  }  
+  
+  .btn-file:focus {  
+    outline: none;  
+    box-shadow: 0 0 0 3px rgba(0, 113, 226, 0.432);  
+  }  
+  
+  .imagen-perfil {  
+   display: flex;
+    top: 0;  
+    left: 0;  
+    width: 100%;  
+    height: 100%;  
+    opacity: 0;  
+    cursor: pointer;  
+  }
+ 
+.e{
+    display: flex;
+
+}
