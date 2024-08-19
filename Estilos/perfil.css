@@ -23,9 +23,10 @@
 }  
 
 .ftp {  
-    margin-top: 18px;
-    width: 140px; /* Ajusta el ancho según tus necesidades */  
-    height: 140px; /* Ajusta la altura según tus necesidades */  
+    margin-top : 2%;
+    
+    width: 100px; /* Ajusta el ancho según tus necesidades */  
+    height: 100px; /* Ajusta la altura según tus necesidades */  
     border: 2px solid #5900ff66; /* Agrega un borde */  
     border-radius: 50%; /* Hace que la imagen sea circular */  
     padding: 7px; /* Agrega un pequeño espacio alrededor de la imagen */  
@@ -66,12 +67,18 @@ button.editar-perfil:hover {
   margin: 0; /* Elimina el margen predeterminado de los párrafos */  
 }  
 .e{
-    margin-top: 30px;
+    margin-top: 60px;
 }
 .f {  
-  float: right; /* Alinea el h2 a la derecha */  
-  margin: 0; /* Elimina el margen predeterminado del h2 */  
+  float: right; /* Aliea el h2 a la derecha */  
+  margin-top: -27px;
+    border-right: 5px solid grey; 
+    padding: 3px;
 }
+.a{
+    padding: 5px;
+}
+
 .nombre{
    margin:10px;
 }
@@ -173,4 +180,36 @@ margin-top: 2%;
 .e{
     display: flex;
 
+}
+
+
+.ftpp {  
+    margin-top : 3%;
+    margin-right: 4%;
+    margin-left: 2%;
+    width: 40px; /* Ajusta el ancho según tus necesidades */  
+    height: 40px; /* Ajusta la altura según tus necesidades */  
+    border: 2px solid #5900ff66; /* Agrega un borde */  
+    border-radius: 50%; /* Hace que la imagen sea circular */  
+    padding: 2px; /* Agrega un pequeño espacio alrededor de la imagen */  
+    background-color: #00000061; /* Agrega un color de fondo */  
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa por encima */  
+    transition: all 0.3s ease; /* Agrega una transición suave al cambiar el estilo */  
+    
+  }  
+.publ{
+    display: flex;
+    border-bottom: 2px solid  #5900ff66;
+}
+.ftpubl{
+    height: 100% ;
+    width:100% ;
+}
+
+.pu{
+    margin: 30px 10px 30px 10px;
+    padding: 8px;
+    
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    
 }
