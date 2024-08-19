@@ -7,7 +7,7 @@ const infomacion = document.getElementById("informacion");
 const guardar= document.getElementById("guardar");
 const correo =document.getElementById("Correo");
 const tlf =document.getElementById("tlf");
-const publ = document.getElementById ("publ")!
+const publ = document.getElementById ("publ");
 const publa = document.getElementById ("publa");const publb = document.getElementById ("publb");
 
 editarperfil.addEventListener("click", ()=>{
